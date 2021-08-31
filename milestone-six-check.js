@@ -10,7 +10,7 @@ const student = {
         id: 19,
         subject: 'Math'
     },
-    favoriteSubjects: ['english', 'math', 'economic', 'policies', 'coding'],
+    favoriteSubjects: ['english', 'Math', 'economic', 'policies', 'coding'],
     goingAbroad: function () {
         console.log(this.name, 'will going Canada soon.');
         console.log(this.subject, 'is not the best department all the time.')
@@ -26,3 +26,14 @@ const afterSpendingTwo = student.friendZoon(1999, 200);
 
 console.log(afterSpending);
 console.log(afterSpendingTwo);
+
+
+// number: 02
+
+const newTemp = `
+Shakib favorite subject is: ${student.subject}
+Ths best friend of Shakib is: ${student.bestFriend.name}
+Shakib favorite subject are: ${student.favoriteSubjects[1]}
+`;
+
+console.log(newTemp);

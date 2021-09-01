@@ -46,5 +46,12 @@ noPara();
 //number:3.2 single parameter arrow function. will divide input by 7
 
 const singlePara = (single) => single / 7;
-const result = singlePara(70);
+const result = singlePara(49);
 console.log(result);
+
+//number:3.3 arrow function with two parameters.
+
+const twoPara = (numOne, numTwo = 0) => (numOne + numTwo) / 2;
+
+const resultTwo = twoPara(150, 160);
+console.log(resultTwo);

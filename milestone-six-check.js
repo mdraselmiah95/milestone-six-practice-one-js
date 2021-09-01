@@ -107,3 +107,19 @@ console.log(actorsName);
 console.log(actorsMovie);
 
 actorsDetails.forEach((actors) => console.log(actors));
+
+//use of filter
+const newNumbers = [21, 53, 78, 90, 123, 690, 2, 9, 44, 71, 11, 4];
+const bigNumbers = newNumbers.filter((num) => num > 20);
+const smallNumbers = newNumbers.filter((num) => num < 30);
+console.log(bigNumbers);
+console.log(smallNumbers);
+
+//use of find
+
+const findInception = actorsDetails.find((name) => name.movie == "Inception");
+const findName = actorsDetails.find((name) => name.name == "Tom Hanks");
+const findYear = actorsDetails.find((year) => year.born == 1937);
+console.log(findInception);
+console.log(findName);
+console.log(findYear);

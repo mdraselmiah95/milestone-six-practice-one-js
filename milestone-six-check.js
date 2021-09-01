@@ -76,3 +76,34 @@ console.log(newNum);
 
 const newNum2 = numbers.map((x) => x * x);
 console.log(newNum2);
+
+//number:5 map, forEach, filter, find
+
+const actors = [
+  "Jack Nicholson",
+  "Robert De Niro",
+  "Marlon Brando",
+  "Denzel Washington",
+  "Leonardo DiCaprio",
+  "Shah Rukh Khan",
+  " Morgan Freeman",
+  "Will Smith",
+];
+
+const actorsLength = actors.map((x) => x.length);
+console.log(actorsLength);
+
+const actorsDetails = [
+  { name: " Robert De Niro", born: 1943, movie: "Cape Fear" },
+  { name: "Jack Nicholson", born: 1937, movie: " Chinatown" },
+  { name: "Denzel Washington", born: 1954, movie: " Fences" },
+  { name: "Tom Hanks", born: 1956, movie: " Cast Away" },
+  { name: "Leonardo DiCaprio", born: 1974, movie: "Inception" },
+  { name: "Morgan Freeman", born: 1937, movie: " Se7en" },
+];
+const actorsName = actorsDetails.map((x) => x.name);
+const actorsMovie = actorsDetails.map((x) => x.movie);
+console.log(actorsName);
+console.log(actorsMovie);
+
+actorsDetails.forEach((actors) => console.log(actors));

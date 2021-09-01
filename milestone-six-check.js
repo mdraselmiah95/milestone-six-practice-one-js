@@ -35,3 +35,10 @@ Shakib favorite subject is: ${student.subject}
 Ths best friend of Shakib is: ${student.bestFriend.name}
 Shakib favorite subject are: ${student.favoriteSubjects[1]}
 `;
+
+//number:3.1  no parameter arrow function. return 89
+
+const noPara = () => {
+  console.log(89);
+};
+noPara();

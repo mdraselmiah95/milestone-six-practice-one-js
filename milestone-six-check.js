@@ -55,3 +55,15 @@ const twoPara = (numOne, numTwo = 0) => (numOne + numTwo) / 2;
 
 const resultTwo = twoPara(150, 160);
 console.log(resultTwo);
+
+//number: 3.4 multi-line arrow function. two parameter.
+
+const multilinePara = (one, two = 0) => {
+  const addOne = one + 7;
+  const addTwo = two + 7;
+  const sum = addOne + addTwo;
+  return sum;
+};
+
+const resultThree = multilinePara(13, 23);
+console.log(resultThree);

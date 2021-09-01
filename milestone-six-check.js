@@ -65,5 +65,14 @@ const multilinePara = (one, two = 0) => {
   return sum;
 };
 
-const resultThree = multilinePara(13, 23);
+const resultThree = multilinePara(53, 33);
 console.log(resultThree);
+
+//number:4 map divide each element by 7
+
+const numbers = [210, 49, 70, 7770, 63];
+const newNum = numbers.map((x) => x / 7);
+console.log(newNum);
+
+const newNum2 = numbers.map((x) => x * x);
+console.log(newNum2);
